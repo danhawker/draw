@@ -26,7 +26,7 @@ exports.defaults = {
 
 
 exports.loadSettings = function() {
-  var settings_file = "settings.json";
+  var settings_file = "etc/settings.json";
   var user_settings = {};
   try {
     user_settings = fs.readFileSync(settings_file).toString();
